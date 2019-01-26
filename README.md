@@ -3,4 +3,6 @@ In certain networks under certain circumstances the tor proxy can be barred. Thi
 
 Tested on Manjaro KDE.
 
+Use: `# bash tor_watch_dog.bash`
+
 Thanks! =D
