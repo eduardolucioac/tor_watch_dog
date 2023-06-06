@@ -2,7 +2,7 @@
 
 <img border="0" alt="Protect yourself against tracking, surveillance, and censorship." src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/2560px-Tor-logo-2011-flat.svg.png" height="15%" width="15%"/>
 
-In certain networks under certain circumstances the Tor proxy can be barred. This Bash script restarts and monitors the Tor service until there is a stable connection.
+In certain networks under certain circumstances the Tor (proxy) network can be barred. This Bash script restarts and monitors the Tor service until there is a stable connection.
 
 Use: `# bash tor_watch_dog.bash`
 
