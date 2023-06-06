@@ -16,7 +16,7 @@ Use: `# bash tor_watch_dog.bash`
 
 # About
 
-okd_bare_metal 🄯 BSD-3-Clause  
+tor_watch_dog 🄯 BSD-3-Clause  
 Eduardo Lúcio Amorim Costa  
 Brazil-DF  
 https://www.linkedin.com/in/eduardo-software-livre/
