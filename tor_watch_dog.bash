@@ -40,7 +40,9 @@ while : ; do
     while : ; do
         if [ ${ERROR_TOLERANCE_OCCURRENCES} -gt ${ERROR_TOLERANCE} ] ; then
             eval $KILL_9_CMD
-            echo "SOMETHING IS WRONG. PROCESS TERMINATED! =["
+            clear
+            echo "SOMETHING IS WRONG. PROCESS TERMINATED! =[
+TIP: A firewall may be blocking the Tor network. Try starting Tor on a network without a firewall (a mobile network, for example) so your Tor network parameters can be updated. This done, try to access again through the firewalled network."
             exit -1
         fi
         if [ ${FIRST_INTERAC_OR_RESTART_PROCESS} -eq 0 ] ; then
